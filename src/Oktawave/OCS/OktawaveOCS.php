@@ -314,7 +314,7 @@ class Oktawave_OCS_OktawaveOCS
         curl_setopt($process, CURLOPT_HEADER, 1);
         curl_setopt($process, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($process, CURLOPT_FAILONERROR, 1);
-        curl_setopt($process, CURLOPT_CAINFO, dirname(__FILE__).'/ca-bundle.crt');
+        curl_setopt($process, CURLOPT_CAINFO, dirname(__FILE__).'/Controller/ca-bundle.crt');
 
         $return = curl_exec($process);
         $httpCode = curl_getinfo($process, CURLINFO_HTTP_CODE);

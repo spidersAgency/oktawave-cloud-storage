@@ -1,1 +1,0 @@
-oktawave-cloud-storage

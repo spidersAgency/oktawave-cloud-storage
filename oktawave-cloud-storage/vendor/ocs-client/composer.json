@@ -1,0 +1,27 @@
+{
+    "name": "oktawave/php-ocsclient",
+    "type": "library",
+    "description": "PHP library to communicate with Oktawave OCS",
+    "keywords": ["php-ocsclient", "ocs", "client", "oktawave", "storage"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Antoni Orfin",
+            "email": "aorfin@octivi.com",
+            "homepage": "http://www.antoniorfin.com"
+        },
+        {
+            "name": "Rafał Lorenz",
+            "email": "rlorenz@octivi.com",
+            "homepage": "http://www.rafallorenz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
